@@ -83,6 +83,7 @@ public class VideoController extends PieController
                 CameraSettings.KEY_VIDEO_TIME_LAPSE_FRAME_INTERVAL,
                 CameraSettings.KEY_VIDEO_QUALITY,
                 CameraSettings.KEY_RECORD_LOCATION,
+                CameraSettings.KEY_STORAGE,
                 CameraSettings.KEY_POWER_SHUTTER,
                 CameraSettings.KEY_COLOR_EFFECT};
 
