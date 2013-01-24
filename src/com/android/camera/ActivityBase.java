@@ -241,13 +241,13 @@ public abstract class ActivityBase extends AbstractGalleryActivity
                 getResources().getString(R.string.pref_camera_storage_title_default));
         mStorageToggled = ( mStorageExternal == val.equals(CameraSettings.VALUE_ON)) ? false : true;
         mStorageExternal = val.equals(CameraSettings.VALUE_ON);
-        File extDCIM = new File(Storage.EXTDCIM);
+        //File extDCIM = new File(Storage.EXTDCIM);
         // Condition for External SD absence
-        if(extDCIM.exists()) mNoExt = false;
-        else {
-            mNoExt=true;
-            mStorageExternal = false;
-        }
+        //if(extDCIM.exists()) mNoExt = false;
+        //else {
+        //    mNoExt=true;
+        //    mStorageExternal = false;
+        //}
     }
 
     @Override
